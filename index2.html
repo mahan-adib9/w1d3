@@ -5,7 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+        P {
+            display: inline;
+            background-color: palegoldenrod;
+        }
+
+        ul {
+            background-color: rgb(173, 243, 132);
+        }
+
+        img {
+            height: 150px;
+            border: 5px solid #a0100df0;
+            border-radius: 50px;
+        }
+
+        .box {
+            /* width: 150px; */
+            box-sizing: content-box;
+            width: 50%;
+            height: 150px;
+            margin: -2px;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: greenyellow;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,7 +67,7 @@
         <div class="box red">box 1</div>
         <div class="box green">box 2</div>
     </div>
-    <input type="text" value="my text" style="color: palegreen; background-color: red;">
+    <input type="text" value="my text" style="color: hsl(120, 93%, 79%); background-color: red;">
     <input type="email" placeholder="Type your email" style="background-color: rgb(173, 243, 132);" value="">
     <input type="number">
     <input type="datetime-local">
