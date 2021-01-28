@@ -6,65 +6,96 @@
     <title>Week 1 day 5</title>
     <style>
         /* div.first-container .list-2 .item span { */
-        div.first-container .list-2 li span {
-            background-color: black;
-            color: white;
-        } 
+            div.first-container .list-2 li span {
+                background-color: black;
+                color: white;
+            } 
+            div.first-container .list-2 li span {
+                /* background-color: rgb(173, 173, 248) !important; */
+                background-color: rgb(173, 173, 248);
+                color: white;
+            } 
+            .first-container ul{
+                display: inline-block;
+                width: 60%;
+            }
     </style>
 </head>
 <body> 
     <header>
         <nav></nav>
+        <h1>Main Title</h1>
         <div class="first-container">
-            <ul class="list-1">
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-            </ul>
-            <ul class="list-2">
-                <li class="item"><span>span text</span></li>
-                <li class="item"><p>paragraph</p></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
+            <ol class="list-1-1">
+                <li class="item">list-1-1</li>
+                <li class="item"><span style="visibility: hidden;">list-1-1</span"></li>
+                <li class="item">list-1-1</li>
+                <li class="item"><span style="display: none;"> list-1-1</span></li>
+                <li class="item">list-1-1</li>
+            </ol>
+            <ul class="list-2-1">
+                <li class="item">
+                    <span style="background-color:pink; display: inline-block; height: 50px; width: 150px; font-size: 1.2rem;font-weight: bold">
+                    <a href="#"></a>list-2-1 span text</a></span>
+                </li>
+                <li class="item"><p>list-2-1 paragraph <b>bold text</b></p></li>
+                <li class="item"><p>list-2-1 paragraph <strong>bold text</strong></p></li> <!-- for html5 strong works same + Shift+Alt+A --> 
+                <li class="item">list-2-1</li>
+                <li class="item">list-2-1</li>
             </ul>
             <ul class="list-3">
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
+                <li class="item">list-3-1</li>
+                <li class="item">list-3-1</li>
+                <li class="item">list-3-1</li>
+                <li class="item">list-3-1</li>
+            </ul>
+            <ol class="list-4">
+                <li class="item">list-4-1</li>
+                <li class="item" style="visibility: hidden;"><span >list-4-1</span"></li>
+                <li class="item">list-4-1</li>
+                <li style="display: none;"><span > list-4-1</span></li>
+                <li class="item" style="display: none;"><span > list-4-1</span></li>
+                <li class="item">list-4-1</li>
+            </ol>
+            <ul class="list-5">
+                <li class="item">list-5-1</li>
+                <li class="item">list-5-1</li>
+                <li class="item">list-5-1</li>
+                <li class="item">list-5-1</li>
             </ul>
         </div>
         <div id="second-container">
             <ul class="list-1">
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
+                <li class="item">list-1-2</li>
+                <li class="item">list-1-2</li>
+                <li class="item">list-1-2</li>
+                <li class="item">list-1-2</li>
             </ul>
             <ul class="list-2">
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
+                <li class="item">list-2-2</li>
+                <li class="item">list-2-2</li>
+                <li class="item">list-2-2</li>
+                <li class="item">list-2-2</li>
             </ul>
             <ul class="list-3">
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
-                <li class="item"></li>
+                <li class="item">list-3-2</li>
+                <li class="item">list-3-2</li>
+                <li class="item">list-3-2</li>
+                <li class="item">list-3-2</li>
             </ul>
         </div>
     </header>
     <main>
         <section>
-            <div></div>
+            <div style="display: inline;">I'm the first div</div>
+            <div style="display: inline;">I'm the second div</div>
+        </section>
+        <div style="display: inline">test</div>
+    </main>
+    <div style="display: inline;">I'm the first div</div>
+    <div style="display: block;">I'm the second div</div>
+    <main>
+        <section>
         </section>
     </main>
     <footer></footer>
